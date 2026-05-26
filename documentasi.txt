@@ -1,0 +1,204 @@
+Anggota: 
+
+Mikhael Luviandrie – 2702257570 
+
+Prihandoyo – 2702258402 
+
+Weny Cahyani Santoso – 26021564126 
+
+Muhammad Rozaan Aqila – 2702286085 
+
+Nama Gim: game audit 
+
+ 
+
+Alur Permainan 
+
+Gim ini menggabungkan mekanisme hidden object dan quiz. Pemain akan mencari item yang tersembunyi di dalam sebuah scene, kemudian menjawab pertanyaan yang muncul setiap kali item ditemukan. 
+
+ 
+
+Awal permainan, pemain dapat memilih tiga opsi permainan dengan tingkat kesulitan yang berbeda yang kami sebut ‘Client’. Di setiap opsi, pemain harus menemukan lima item yang tersembunyi dalam scene. 
+
+ 
+
+Setiap item yang ditemukan akan memunculkan pertanyaan kuis dengan tiga jenis bentuk, yaitu Input answer, Yes or No, Multiple Choice. 
+
+ 
+
+Jika pemain menjawab dengan benar, pemain akan mendapatkan poin. Jika pemain menjawab salah atau kehabisan waktu, maka pemain tidak mendapatkan poin. Setelah menjawab, pemain akan melihat penjesalan jawaban yang benar pada halaman penjelasan singkat sebelum kembali ke permainan. 
+
+ 
+
+Tingkat kesulitan pada setiap opsi akan meningkat biak, dari kesulitan menemukan item maupun tingkat kesulitan pertanyaan. 
+
+ 
+
+Cara Bermain  
+
+Masuk ke Layar utama dan masukkan nama pemain. 
+
+Pilih Client. 
+
+Halaman Tutorial. 
+
+Permainan Utama (hidden object, quiz). 
+
+ 
+
+Core Gameplay Loop 
+
+Masukan nama 
+
+Pemain masuk ke layar utama dan masukkan nama. 
+
+ 
+
+Pilih Opsi Permainan 
+
+Pemain memilih salah satu dari tiga opsi permainan dengan tingkat kesulitan yang berbeda. 
+
+ 
+
+Mencari Item  
+
+Pemain mencari item yang diminta di dalam Scene. 
+
+ 
+
+Item ditemukan 
+
+Ketika item berhasil ditemukan, permainan memicu pertanyaan kuis. 
+
+ 
+
+Menjawab Pertanyaan 
+
+Pemain menjawab pertanyaan dalam bentuk input, yes/no, multiple choice. 
+
+ 
+
+Evaluasi jawaban dan Poin 
+
+Jika pemain menjawab benar, pemain mendapatkan poin. 
+
+Jika pemain menjawab salah atau waktunya habis, pemain tidak mendapatkan poin. 
+
+ 
+
+Penjelasan Jawaban 
+
+Pemain melihat penjelasan singkat mengenai jawaban yang benar. 
+
+ 
+
+Kembali ke Scene 
+
+Pemain kembali ke gameplay  untuk mencari item berikutnya. 
+
+ 
+
+Selesai 
+
+Jika pemain sudah menjawab semua soal, akan lanjut ke Result. 
+
+ 
+Tech Stack: 
+- React 
+- Vite 
+- JavaScript 
+- HTML5 / CSS3 
+
+Frontend: 
+- React state management 
+ 
+Deployment: 
+- GitHub Pages 
+
+ 
+
+Struktur Folder 
+
+src/ 
+│- index.css > konfigurasi styling global 
+│- assets/ > gambar & sound effect 
+│- App.jsx > main component 
+│- main.jsx > entry point aplikasi 
+vite.config.js 
+
+ 
+
+Screenshot: 
+//////
+Title: 
+
+ 
+
+ 
+
+Tutorial: 
+
+ 
+
+ 
+
+Case select: 
+
+ 
+
+ 
+
+Page case: 
+
+ 
+
+ 
+
+Pertanyaan: 
+
+ 
+
+ 
+
+Summary: 
+
+ 
+
+ 
+
+Result: 
+
+ 
+
+ 
+///////
+Cara Menjalankan Lokal: 
+npm install 
+npm run dev 
+
+ 
+
+Cara build: 
+
+Npm run build  
+
+ 
+
+Deploy ke GitHub Pages: 
+
+npm run deploy 
+
+ 
+
+URL Deployment 
+
+GitHub Pages: 
+https://viandrieplm123.github.io/gameaudit1/ 
+
+ 
+
+Desain 
+
+Canva: https://www.canva.com/design/DAHCxEFhSeg/r_BMIklIvY_PWzwdjAagWA/edit  
+
+Figma: https://www.figma.com/design/mpJCM32nXeI7mBhCxgZ96l/Untitled?node-id=0-1  

@@ -1,0 +1,32 @@
+game audit need to improve:
+
+1.ganti bahasa netral (contoh: case complete / bukan you winner.)
+
+2. user harus cari barang real yang blend in dengan background. 
+user click barang dan muncul soal dan pin untuk tandai ketemu.
+
+3. soal muncul dengan timer 1m/60sec.
+jika jawab benar pin dicentang dan lanjut.
+jika salah, muncul warning untuk hitung kembali dan sediakan opsi untuk jawab ulang.
+jika timeout, pin disalahkan dengan x dan lanjut.
+
+4. semua barang ketemu => ke result
+jika semua jawaban benar akan muncul hasil opini benar(adverse, unqualified)
+jika satu salah akan muncul opini disclamer opinion.
+
+5.pilih case harus diganti
+
+6.gambar harus pakai webp untuk cepat main dan harus hd.
+
+7.result page diganti:
+benar semua:
+soal 1: unqualified
+soal 2: qualified
+soal 3: adverse
+timeout satu:
+1,2,3: disclamer opini
+
+8.untuk ui ikuti desain figma
+
+tanya kak kevin untuk tanya code logic game audit:
+082157262958
